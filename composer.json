@@ -1,0 +1,19 @@
+{
+  "name": "shopify/shopify-php",
+  "description": "PHP library for the Shopify API",
+  "version" : "0.1.0",
+  "require": {
+    "php": ">=5.5.9",
+    "ext-curl": "*",
+    "shopify/shopify-php": "^0.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*",
+    "squizlabs/php_codesniffer": "2.8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shopify\\": "src/"
+    }
+  }
+}
